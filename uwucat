@@ -1,2 +1,2 @@
 #!/bin/sh
-exec cat $@ | tr rl ww
+exec cat "$@" | tr rl ww
