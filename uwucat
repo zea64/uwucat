@@ -1,0 +1,2 @@
+#!/bin/sh
+exec cat $@ | tr rl ww
